@@ -1,0 +1,27 @@
+﻿@IA_API_Ollama_HostAddress = http://localhost:5246
+
+# Upload de texto (Processar Documento)
+POST {{IA_API_Ollama_HostAddress}}/api/upload
+Content-Type: application/json
+
+{
+  "text": "Este é um exemplo de texto que será dividido em chunks e armazenado na base de dados com embeddings gerados via Ollama."
+}
+
+###
+
+### Fazer uma pergunta sobre o conteúdo
+POST {{IA_API_Ollama_HostAddress}}/api/ask
+Content-Type: application/json
+
+{
+  "question": "Qual é o objetivo deste documento?"
+}
+
+###
+
+###  Verificar os dados no banco (Endpoint opcional, se desejar criar futuramente)
+# GET {{IA_API_Ollama_HostAddress}}/api/chunks
+# Accept: application/json
+
+###

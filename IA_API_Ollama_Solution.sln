@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IA_API_Ollama", "IA_API_Ollama\IA_API_Ollama.csproj", "{50901129-9665-4E10-9B74-47E1268732EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50901129-9665-4E10-9B74-47E1268732EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50901129-9665-4E10-9B74-47E1268732EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50901129-9665-4E10-9B74-47E1268732EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50901129-9665-4E10-9B74-47E1268732EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FC8E3DB-1ECC-4D40-9C6B-3983CB7E35EC}
+	EndGlobalSection
+EndGlobal
